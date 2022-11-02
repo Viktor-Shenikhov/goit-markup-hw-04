@@ -24,6 +24,7 @@ font-weight: 400;500;700
    margin: 0 auto;
    padding: 0 15px;
    
+   
    /* border: 1px solid red; */ 
       
  }
@@ -143,9 +144,15 @@ color: var(--primary-text-color);
  /* FOOTER */
  .ground{
 background-color: #2F303A;
+
+ }
+
+ .footer{
+   display: flex;
+   align-items: baseline;
  }
 .ground-logo{
-display: inline-block;
+display: inline-flex;
 margin-top: 60px;
 margin-bottom: 20px;
 
@@ -160,7 +167,7 @@ color: #2196F3;
    color:#FFFFFF;
 }
 .location{
-   
+   margin-right: 70px;
 font-style: normal;
 font-size: 14px;
 line-height: 1.7;
@@ -192,6 +199,16 @@ color: #2196F3;
 .location-link:hover,
 .location-link:focus{
 color: #2196F3;
+}
+
+.social-links-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
 }
 /* PORTFOLIO */
 .page-nav{
@@ -278,10 +295,16 @@ margin: -1px;
 }
 
 .hero{
-   background-color: #2F303A;
+   background-color:#C4C4C4;
    padding-top: 200px;
    padding-bottom: 200px;
    margin-bottom: 94px;
+   width: 1600px;
+   background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../images/hero-img.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   
 }
 
 
@@ -431,4 +454,17 @@ margin-bottom: 30px;
 background: url(2968);
 border-radius: 0px;
  margin-bottom: 30px; 
+}
+.clients{
+margin-bottom: 94px;
+}
+.clients-title{
+padding-top: 90px;
+margin-bottom: 50px;
+color: var(--title-color);   
+font-weight: 700;
+font-size: 36px;
+line-height:1,17;
+text-align: center;
+letter-spacing: 0.03em;
 }
