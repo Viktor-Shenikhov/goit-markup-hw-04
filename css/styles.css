@@ -208,8 +208,36 @@ line-height: 1,14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-
+margin-bottom: 20px;
 }
+.social-links{
+   display: flex;
+   gap: 10px;
+   
+   
+   
+}
+.social-links-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 50%;
+   
+   
+}
+.social-links-icon svg{
+   width: 20px;
+   height: 20px;
+   
+   
+   
+}
+
+
+
 /* PORTFOLIO */
 .page-nav{
 display:flex;
