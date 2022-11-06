@@ -60,9 +60,7 @@ border-bottom: 1px solid #ECECEC;
 /* height: 0px; */
  /* left: calc(50% - 1600px/2); */
 /* top: calc(50% - 0px/2 - 860px); */
-
-
-  
+ 
  } 
  
  a{
@@ -112,24 +110,20 @@ color: var(--title-color);
   {
    margin-right: 50px;
  }
-
- .header-icon{
+ 
+ .icons{
    margin-right: 10px;
- }
- 
-
- 
+ } 
+  
  .contact-icon:not(:last-child){
    margin-right: 30px;
-
  }
- .icons:hover,
-.icons:focus{
+ 
+  .icons:hover,
+  .icons:focus{
    stroke: #2196F3;
-} 
- 
-  
- 
+}  
+   
  .link{
    display: block;
    padding-top: 32px;
